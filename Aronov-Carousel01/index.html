@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<title>Simple Carousel</title>
+		<link rel="stylesheet" type="text/css" href="styles/reset.css">
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+	</head>
+	<body>
+	    <div onclick="showCoords(event)" style="height: 1080px; width: 1920px;"> 
+			<!--Click this heading to get the x (horizontal) and y (vertical) coordinates of the mouse pointer when it was clicked.-->
+	    </div>
+
+	    <!--<p id="demo"></p>-->
+
+		<div class="slider" style="height: 700px; width: 700px;">
+
+
+			<div class="slider-frame">
+				<div class="slider-content">
+					<img src="img/eye1.png" alt="pic" data-src="img/eye1.png">
+					<img src="img/eye2.png" alt="pic" data-src="img/eye2.png">
+					<img src="img/eye3.png" alt="pic" data-src="img/eye3.png">
+					<img src="img/eye4.png" alt="pic" data-src="img/eye4.png">
+					<img src="img/eye5.png" alt="pic" data-src="img/eye5.png">
+					<img src="img/eye6.png" alt="pic" data-src="img/eye6.png">
+				</div>
+			</div>
+			<div class="slider-controls">
+				<ul>
+				</ul>
+			</div>
+		</div>
+	
+
+		<script type="text/javascript" src="scripts/simple-carousel.js" defer></script>
+		<script type="text/javascript" src="scripts/main.js" defer></script>
+	</body>
+</html>
